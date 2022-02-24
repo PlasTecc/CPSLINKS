@@ -32,8 +32,8 @@ while True:
                 counter += 1
             my_choice = int(input("> "))
             if timetable[my_choice - 1] == "GH":
-                print(
-                    "There is no set link for the Golden Hour please check the whatsapp group for the link.")
+                print("Please check the whatsapp group for the link.")
+                input("Press Enter to continue...")
             else:
                 webbrowser.open(links[timetable[my_choice - 1]])
             con = input("Would you like to continue? (Y/N): ").lower()
