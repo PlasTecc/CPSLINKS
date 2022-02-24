@@ -31,11 +31,14 @@ while True:
                 print(f"{counter}. {subject}")
                 counter += 1
             my_choice = int(input("> "))
-            if timetable[my_choice - 1] == "GH":
-                print("Please check the whatsapp group for the link.")
-                input("Press Enter to continue...")
+            if my_choice > 0:
+                if timetable[my_choice - 1] == "GH":
+                    print("Please check the whatsapp group for the link.")
+                    input("Press Enter to continue...")
+                else:
+                    webbrowser.open(links[timetable[my_choice - 1]])
             else:
-                webbrowser.open(links[timetable[my_choice - 1]])
+                print("You have either entered letter or an invalid number!")
             con = input("Would you like to continue? (Y/N): ").lower()
             if con == "n":
                 break
