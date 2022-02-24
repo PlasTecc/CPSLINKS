@@ -18,10 +18,16 @@ banner = f"""   ____ ____  ____  _     ___ _   _ _  ______
   \____|_|   |____/|_____|___|_| \_|_|\_\____/ 
                                                By PlasTec#5267 | Version: 1.0 | 11A only."""
 
+print(current_date)
+print(current_date == "Friday")
 
 while True:
     try:
-        if current_date != "Friday" or current_date != "Saturday":
+        if current_date == "Friday" or current_date == "Saturday":
+            print("There is no school today!")
+            input("Press Enter to continue...")
+            break
+        else:
             os.system('cls' if os.name == 'nt' else 'clear')
             counter = 1
             print(banner)
@@ -40,9 +46,6 @@ while True:
             con = input("Would you like to continue? (Y/N): ").lower()
             if con == "n":
                 break
-        else:
-            print("There is no school today!")
-            break
     except Exception:
         print("You have either entered letter or an invalid number!")
         answer = input("Would you like to try again? (Y/N): ").lower()
