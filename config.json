@@ -1,0 +1,47 @@
+{
+    "Sunday": [
+        "Memorizing Quran",
+        "Arabic",
+        "English",
+        "Biology",
+        "Islamic",
+        "Math",
+        "Business"
+    ],
+    "Monday": [
+        "Math",
+        "Physics",
+        "'Arabic",
+        "YLP",
+        "English",
+        "Biology",
+        "ICT",
+        "Business"
+    ],
+    "Tuesday": [
+        "Business",
+        "Islamic",
+        "ICT",
+        "Math",
+        "PE",
+        "Art",
+        "Arabic"
+    ],
+    "Wednesday": [
+        "GH",
+        "Physics",
+        "PE",
+        "Arabic",
+        "English",
+        "Math",
+        "Social Arabic/Citizenship"
+    ],
+    "Thursday": [
+        "Math",
+        "Arabic",
+        "Art",
+        "ICT",
+        "Biology",
+        "Business"
+    ]
+}
