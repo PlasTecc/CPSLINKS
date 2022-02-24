@@ -18,7 +18,7 @@ banner = f"""   ____ ____  ____  _     ___ _   _ _  ______
  | |   | |_) \___ \| |    | ||  \| | ' /\___ \ 
  | |___|  __/ ___) | |___ | || |\  | . \ ___) |
   \____|_|   |____/|_____|___|_| \_|_|\_\____/ 
-                                               By PlasTec#5267 | Version: {version}"""
+                                               By PlasTec#5267 | Version: {version} | 11A only."""
 
 
 while True:
@@ -42,7 +42,7 @@ while True:
         else:
             print("There is no school today!")
             break
-    except ValueError:
+    except Exception:
         print("You have either entered letter or an invalid number!")
         answer = input("Would you like to try again? (Y/N): ").lower()
         if answer == "n":
