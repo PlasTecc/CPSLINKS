@@ -18,9 +18,6 @@ banner = f"""   ____ ____  ____  _     ___ _   _ _  ______
   \____|_|   |____/|_____|___|_| \_|_|\_\____/ 
                                                By PlasTec#5267 | Version: 1.0 | 11A only."""
 
-print(current_date)
-print(current_date == "Friday")
-
 while True:
     try:
         if current_date == "Friday" or current_date == "Saturday":
