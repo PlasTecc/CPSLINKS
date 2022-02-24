@@ -24,6 +24,7 @@ banner = f"""   ____ ____  ____  _     ___ _   _ _  ______
 while True:
     try:
         if current_date != "Friday" or current_date != "Saturday":
+            os.system('cls' if os.name == 'nt' else 'clear')
             counter = 1
             print(banner)
             for subject in timetable:
@@ -38,7 +39,6 @@ while True:
             con = input("Would you like to continue? (Y/N): ").lower()
             if con == "n":
                 break
-            os.system('cls' if os.name == 'nt' else 'clear')
         else:
             print("There is no school today!")
             break
