@@ -8,17 +8,15 @@ import os
 
 links_json_url = "https://raw.githubusercontent.com/PlasTecc/PlasTecc/main/links.json"
 timetable_json_url = "https://raw.githubusercontent.com/PlasTecc/PlasTecc/main/timetable.json"
-version_json_url = "https://raw.githubusercontent.com/PlasTecc/PlasTecc/main/version.json"
 current_date = calendar.day_name[datetime.date.today().weekday()]
 links = requests.get(links_json_url).json()
 timetable = requests.get(timetable_json_url).json()[current_date]
-version = requests.get(version_json_url).json()["Version"]
 banner = f"""   ____ ____  ____  _     ___ _   _ _  ______  
   / ___|  _ \/ ___|| |   |_ _| \ | | |/ / ___| 
  | |   | |_) \___ \| |    | ||  \| | ' /\___ \ 
  | |___|  __/ ___) | |___ | || |\  | . \ ___) |
   \____|_|   |____/|_____|___|_| \_|_|\_\____/ 
-                                               By PlasTec#5267 | Version: {version} | 11A only."""
+                                               By PlasTec#5267 | Version: 1.0 | 11A only."""
 
 
 while True:
