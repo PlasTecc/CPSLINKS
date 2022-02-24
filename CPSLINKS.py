@@ -18,7 +18,7 @@ banner = f"""   ____ ____  ____  _     ___ _   _ _  ______
  | |   | |_) \___ \| |    | ||  \| | ' /\___ \ 
  | |___|  __/ ___) | |___ | || |\  | . \ ___) |
   \____|_|   |____/|_____|___|_| \_|_|\_\____/ 
-                                               By Ziyad Salah | Version: {version}"""
+                                               By PlasTec#5267 | Version: {version}"""
 
 
 while True:
@@ -48,5 +48,5 @@ while True:
         if answer == "n":
             break
 
-print("Thanks for using CPSLINKS developed by Ziyad. Exiting in 3 seconds...")
+print("Thanks for using CPSLINKS developed by PlasTec. Exiting in 3 seconds...")
 time.sleep(3)
