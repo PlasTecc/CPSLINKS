@@ -3,6 +3,8 @@ import datetime
 import requests
 import webbrowser
 import time
+import os
+
 
 links_json_url = "https://raw.githubusercontent.com/PlasTecc/PlasTecc/main/links.json"
 timetable_json_url = "https://raw.githubusercontent.com/PlasTecc/PlasTecc/main/timetable.json"
@@ -16,7 +18,7 @@ banner = f"""   ____ ____  ____  _     ___ _   _ _  ______
  | |   | |_) \___ \| |    | ||  \| | ' /\___ \ 
  | |___|  __/ ___) | |___ | || |\  | . \ ___) |
   \____|_|   |____/|_____|___|_| \_|_|\_\____/ 
-                                               By PlasTec#5267 | Version: {version}"""
+                                               By Ziyad Salah | Version: {version}"""
 
 
 while True:
@@ -36,6 +38,7 @@ while True:
             con = input("Would you like to continue? (Y/N): ").lower()
             if con == "n":
                 break
+            os.system('cls' if os.name == 'nt' else 'clear')
         else:
             print("There is no school today!")
             break
