@@ -5,9 +5,8 @@ import webbrowser
 import time
 import os
 
-
-links_json_url = "https://raw.githubusercontent.com/PlasTecc/PlasTecc/main/links.json"
-timetable_json_url = "https://raw.githubusercontent.com/PlasTecc/PlasTecc/main/timetable.json"
+links_json_url = "https://raw.githubusercontent.com/PlasTecc/CPSLINKS/main/links.json"
+timetable_json_url = "https://raw.githubusercontent.com/PlasTecc/CPSLINKS/main/timetable.json"
 current_date = calendar.day_name[datetime.date.today().weekday()]
 links = requests.get(links_json_url).json()
 timetable = requests.get(timetable_json_url).json()[current_date]
