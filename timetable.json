@@ -43,5 +43,11 @@
         "ICT",
         "Biology",
         "Business"
+    ],
+    "Friday": [
+        "No school"
+    ],
+    "Saturday": [
+        "No school"
     ]
 }
