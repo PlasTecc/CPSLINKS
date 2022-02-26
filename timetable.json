@@ -2,21 +2,20 @@
     "Sunday": [
         "Memorizing Quran",
         "Arabic",
-        "English",
-        "Biology",
-        "Islamic",
         "Math",
+        "Biology",
+        "Social Studies",
+        "English",
         "Business"
     ],
     "Monday": [
         "Math",
         "Physics",
-        "'Arabic",
-        "YLP",
+        "Arabic",
+        "Islamic",
         "English",
         "Biology",
-        "ICT",
-        "Business"
+        "ICT"
     ],
     "Tuesday": [
         "Business",
@@ -30,19 +29,19 @@
     "Wednesday": [
         "GH",
         "Physics",
-        "PE",
+        "Business",
         "Arabic",
         "English",
         "Math",
         "Social Arabic/Citizenship"
     ],
     "Thursday": [
-        "Math",
         "Arabic",
-        "Art",
-        "ICT",
+        "Business",
+        "English",
         "Biology",
-        "Business"
+        "Math",
+        "Physics"
     ],
     "Friday": [
         "No school"
