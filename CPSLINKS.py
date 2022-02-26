@@ -16,6 +16,7 @@ banner = f"""   ____ ____  ____  _     ___ _   _ _  ______
                                                By PlasTec#5267 | Version: 2.0 | 11A only."""
 
 if current_day != "Friday" and current_day != "Saturday":
+    print(banner)
     zoom_links = requests.get(zoom_links_json_url).json()
     timetable = requests.get(timetable_json_url).json()[current_day]
     while True:
