@@ -13,7 +13,7 @@ banner = f"""   ____ ____  ____  _     ___ _   _ _  ______
  | |   | |_) \___ \| |    | ||  \| | ' /\___ \ 
  | |___|  __/ ___) | |___ | || |\  | . \ ___) |
   \____|_|   |____/|_____|___|_| \_|_|\_\____/ 
-                                               By PlasTec#5267 | Version: 2.0 | 11A only."""
+                                               By PlasTec#5267 | Version: 2.0 | 11B only."""
 
 if current_day != "Friday" and current_day != "Saturday":
     print(banner)
