@@ -1,46 +1,47 @@
 {
-    "Sunday": [
-        "Memorizing Quran",
-        "Arabic",
-        "Math",
-        "Biology",
-        "Social Studies",
-        "English",
-        "Business"
-    ],
-    "Monday": [
-        "Math",
-        "Physics",
-        "Arabic",
-        "Islamic",
-        "English",
-        "Biology",
-        "ICT"
-    ],
-    "Tuesday": [
-        "Business",
-        "Islamic",
-        "ICT",
-        "Math",
-        "PE",
-        "Art",
-        "Arabic"
-    ],
-    "Wednesday": [
-        "GH",
-        "Physics",
-        "Business",
-        "Arabic",
-        "English",
-        "Math",
-        "Social Arabic/Citizenship"
-    ],
-    "Thursday": [
-        "Arabic",
-        "Business",
-        "English",
-        "Biology",
-        "Math",
-        "Physics"
-    ]
+   "Sunday":[
+      "PHY",
+      "MQ",
+      "ARAB",
+      "YLP",
+      "IS",
+      "BUS",
+      "MATH"
+   ],
+   "Monday":[
+      "BIO",
+      "MATH",
+      "ARAB",
+      "IS",
+      "PE",
+      "BUS",
+      "ENG"
+   ],
+   "Tuesday":[
+      "ENG",
+      "PHY",
+      "LS",
+      "MATH",
+      "SSE",
+      "BIO",
+      "ARAB"
+   ],
+   "Wednesday":[
+      "GH",
+      "ENG",
+      "MATH",
+      "ICT",
+      "PHY",
+      "ART",
+      "ARAB"
+   ],
+   "Thursday":[
+      "ICT",
+      "BIO",
+      "CTZN",
+      "BUS",
+      "ARAB",
+      "MATH",
+      "ENG"
+   ]
 }
